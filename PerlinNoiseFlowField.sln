@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerlinNoiseFlowField", "PerlinNoiseFlowField\PerlinNoiseFlowField.csproj", "{2BAF7A0D-971B-4BF2-8657-E9B847ACCFD9}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MorphxLibs", "MorphxLibs\MorphxLibs.shproj", "{F92EE134-8CB3-455A-9160-841004898E8D}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MorphxLibs\MorphxLibs.projitems*{2baf7a0d-971b-4bf2-8657-e9b847accfd9}*SharedItemsImports = 5
+		MorphxLibs\MorphxLibs.projitems*{f92ee134-8cb3-455a-9160-841004898e8d}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BAF7A0D-971B-4BF2-8657-E9B847ACCFD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BAF7A0D-971B-4BF2-8657-E9B847ACCFD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BAF7A0D-971B-4BF2-8657-E9B847ACCFD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BAF7A0D-971B-4BF2-8657-E9B847ACCFD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A1EBE89-6737-4465-B83B-5636A7489FA9}
+	EndGlobalSection
+EndGlobal
