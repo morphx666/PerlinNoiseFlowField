@@ -1,4 +1,5 @@
-﻿using System;
+﻿#if WINFORMS
+using System;
 using System.Drawing.Imaging;
 using System.Runtime.InteropServices;
 using System.Drawing;
@@ -162,3 +163,4 @@ namespace MorphxLibs {
         }
     }
 }
+#endif
